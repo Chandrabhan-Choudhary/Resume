@@ -1,58 +1,77 @@
-body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 12px;
-    max-width: 960px;
-    margin: auto;
-}
-h1 {
-    font-size: 3em;
-    letter-spacing: .6em;
-    padding-top: 1em;
-    padding-bottom: 1em;
-}
+<html>
+	<head>
+		<link href="style.css" rel="stylesheet">
+		<title>Your name resume</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+	</head>
 
-h2 {
-    font-size: 1.5em;
-    padding-bottom: 1em;
-}
-
-h3 {
-    font-size: 1em;
-    padding-bottom: 1em;
-}
-
-main { 
-    display: grid;
-    grid-template-columns: 40% 60%;
-    margin-top: 3em;
-}
-header {
-    text-align: center;
-    margin: auto 2em;
-}
-
-section {
-    margin: auto 1em 4em 2em;
-}
-
-i {
-    margin-right: .5em;
-}
-
-p {
-    margin: .2em auto
-}
-
-hr {
-    border: none;
-    background-color: rgb(88, 69, 69);
-    height: 1px;
-}
-
-h1, h2, h3 {
-    font-weight: 100;
-    margin-bottom: 0;
-}
-#mainLeft {
-    border-right: 1px solid lightgray;
-}
+	<body>
+		<header id="header">
+			<!-- resume header with your name and title -->
+			<h1>CHANDRABHAN CHOUDHARY</h1>
+			<hr>
+			Cybersecurity Analyst
+			<hr>
+		</header>
+		<main>
+			<article id="mainLeft">
+				<section>
+					<h2>CONTACT</h2>
+					<!-- contact info including social media -->
+                    <p>
+                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                        <a href="mailto:your-email@example.com">chandrabhan@gmail.com</a>
+                    </p>
+                    <p>
+                        <i class="fab fa-github" aria-hidden="true"></i>
+                        <a href="github.com/gh-username">Chandrabhan-Choudhary</a>
+                    </p>
+                    <p>
+                        <i class="fab fa-linkedin" aria-hidden="true"></i>
+                        <a href="linkedin.com/linkedin-username">NIL</a>
+                    </p>
+				</section>
+				<section>
+					<h2>SKILLS</h2>
+					<!-- your skills -->
+                    <p>HTML, CSS, GitHub, VS Code, Python, MY SQL, Information Security, Cyber Security, Nist, Microsoft Office, Word, Excel, IDS, VMWARE, Network Administration, And Network Security....</p>
+				</section>
+				<section>
+					<h2>EDUCATION</h2>
+					<!-- your education -->
+                    <h3>B.Tech</h3>
+                    <p>
+                         IIT KGP
+                    </p>
+                    <p>
+                        2021-2025
+                    </p>
+				</section>            
+			</article>
+			<article id="mainRight">
+				<section>
+					<h2>ABOUT</h2>
+					<!-- about you -->
+					<p>University IT graduate with cyber security background and hundreds of classroom hours in cloud safety, automation, and digital forensics. Seeking to leverage newly-minted top secret security clearance and 4.0 GPA to become the next network security engineer at Astoria Tech.</p>
+				</section>
+				<section>
+					<h2>WORK EXPERIENCE</h2>
+					<!-- your work experience -->
+                    <h3>CYBERSECURITY ANALYST</h3>
+                    <p>
+					     Raats Tech
+						| Dec. 2018 - May 2020
+                    </p>
+                    <p>
+						Meticulous cyber security analyst with a passion for security architecture and 5-plus years of experience in IT processes and procedures seeks opportunity to help Rio Technologies reach new cybersecurity standards and achieve operational goals.
+                    </p>
+                    <ul>
+                            <li>Established standard operating procedures for security network.</li>
+                            <li>Created security metrics to reduce system vulnerability, resulting in a 15% decrease in data breaches over a one-year period.</li>
+                            <li>Trained 112 employees on security processes and risk mitigation techniques.</li>
+                    </ul>
+				</section>
+			</article>
+		</main>
+	</body>
+</html>
